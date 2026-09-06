@@ -1,0 +1,22 @@
+# TaiChi Action Scoring - 依赖清单
+# 说明：适配Python 3.12和Streamlit 1.32.2的版本组合
+
+# 主程序必需
+mediapipe==0.10.21
+opencv-python==4.10.0.84
+numpy==1.26.4
+matplotlib==3.8.4
+fastdtw==0.3.4
+scipy==1.12.0
+streamlit==1.32.2
+pandas==2.2.2
+
+# 音频处理（实时录制功能）
+sounddevice==0.5.3
+
+# 文档导出/图形转换（可选需求）
+# 若使用 convert_svg_to_pdf 或导出评分报告，建议安装下列库
+cairosvg==2.7.1
+pdfkit==1.0.0
+svglib==1.5.1
+reportlab==4.0.4

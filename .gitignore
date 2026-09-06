@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.mp4
+data/processed/batch_temp/
+.DS_Store
+Thumbs.db
